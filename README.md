@@ -28,6 +28,9 @@ test client in localnet command:
 ```
 yarn 
 solana-test-validator --bpf-program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s DIR_OF_token_metadata/token_metadata.so 
+solana config set --url localhost
+solana airdrop 2
+anchor build
 anchor deploy
 anchor run client 
 ```
