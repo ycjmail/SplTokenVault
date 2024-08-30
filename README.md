@@ -24,7 +24,7 @@ anchor test
 
 
 
-test client in localnet command:
+test client on localnet command:
 ```
 yarn 
 solana-test-validator --bpf-program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s DIR_OF_token_metadata/token_metadata.so 
